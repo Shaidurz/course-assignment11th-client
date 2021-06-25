@@ -6,7 +6,7 @@ const AddAdmin = () => {
   const { register, handleSubmit, watch, formState: { errors } } = useForm();
   const onSubmit = data => {
     console.log(data)
-    const url = `http://localhost:5000/addAdmin`
+    const url = `https://stark-crag-95097.herokuapp.com/addAdmin`
     fetch(url, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },

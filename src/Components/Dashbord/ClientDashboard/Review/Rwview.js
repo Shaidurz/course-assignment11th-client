@@ -14,7 +14,7 @@ const Rwview = () => {
       imgUrl: imageUrl
     }
     console.log(events)
-    const url = `http://localhost:5000/addReview`
+    const url = `https://stark-crag-95097.herokuapp.com/addReview`
     fetch(url, {
       method: 'POST',
       headers: { 'content-type': 'application/json' },

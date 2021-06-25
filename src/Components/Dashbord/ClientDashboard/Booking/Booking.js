@@ -12,7 +12,7 @@ const Booking = () => {
     const { _id } = useParams()
 
     useEffect(() => {
-        fetch('http://localhost:5000/orderService/' + _id)
+        fetch('https://stark-crag-95097.herokuapp.com/orderService/' + _id)
             .then(res => res.json())
             .then(data => {
                 setOrderProduct(data)
@@ -34,7 +34,7 @@ const Booking = () => {
             paymentID: paymentID
         }
         console.log(bookingData)
-        fetch('http://localhost:5000/serviceBooking', {
+        fetch('https://stark-crag-95097.herokuapp.com/serviceBooking', {
             method: 'POST',
             headers: { 'content-type': 'application/json' },
             body: JSON.stringify(bookingInfo)
