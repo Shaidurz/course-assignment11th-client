@@ -1,0 +1,22 @@
+.button{
+    background-color: rgba(48, 48, 148, 0.637);
+}
+.login-form{
+    width: 33%;
+    margin: auto;
+}
+.google{
+    width: 200px;
+    background-color: white;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    border: 1px solid rgba(48, 48, 148, 0.637);
+    padding: 5px;
+}
+.icon{
+    margin-right: 10px;
+}
+

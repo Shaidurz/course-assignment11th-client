@@ -1,7 +1,18 @@
 .App {
   text-align: center;
 }
-
+.heading-p{
+  font-size: 30px;
+  margin: 15px 0px 0px;
+  color:#092949;
+}
+section{
+  margin-top: 100px;
+}
+.heading-h2{
+  margin: 10px 0px;
+  color: #092949;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;

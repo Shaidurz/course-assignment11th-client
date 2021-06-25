@@ -1,0 +1,9 @@
+.serviceDetails {
+height: 400px;
+background-color: white;
+
+
+}
+.serviceDetails h6,h2,p,button{
+    margin: 20px 0px;
+}

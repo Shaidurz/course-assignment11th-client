@@ -1,0 +1,17 @@
+.service{
+    /* background-color: #092949cc; */
+    
+    background-image: url(../../../images/artem-sapegin-b18TRXc8UPQ-unsplash.jpg);
+    background-size: cover;
+    margin-top: 100px;
+   
+}
+.service img{
+    height: 60px;
+    width: 60px;
+    border-radius: 60px;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    -ms-border-radius: 60px;
+    -o-border-radius: 60px;
+}

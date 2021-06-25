@@ -1,0 +1,15 @@
+.sidebar{
+background-color:rgb(38, 138, 163);
+height: 568px;
+width: 100%;
+
+color: white;
+
+}
+.sidebar li{
+   
+    padding: 20px 0px;
+    display: block;
+    color: white;
+    text-align: left;
+}
